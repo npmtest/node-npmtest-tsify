@@ -1,6 +1,6 @@
 # npmtest-tsify
 
-#### test coverage for  [tsify (v3.0.1)](https://github.com/TypeStrong/tsify)  [![npm package](https://img.shields.io/npm/v/npmtest-tsify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tsify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tsify.svg)](https://travis-ci.org/npmtest/node-npmtest-tsify)
+#### basic test coverage for  [tsify (v3.0.1)](https://github.com/TypeStrong/tsify)  [![npm package](https://img.shields.io/npm/v/npmtest-tsify.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-tsify) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-tsify.svg)](https://travis-ci.org/npmtest/node-npmtest-tsify)
 
 #### Browserify plugin for compiling Typescript
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-tsify/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-tsify/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-tsify/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-tsify/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tsify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tsify/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-tsify/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-tsify/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-tsify/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-tsify/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-tsify/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-tsify/build/coverage.html/index.html)
 
@@ -108,7 +108,8 @@
         "test": "test-peer-range browserify",
         "test-main": "node test/test.js"
     },
-    "version": "3.0.1"
+    "version": "3.0.1",
+    "bin": {}
 }
 ```
 
